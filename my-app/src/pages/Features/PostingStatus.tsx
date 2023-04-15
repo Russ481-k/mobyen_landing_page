@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function PostingStatus() {
-  return (
-    <div>PostingStatus</div>
-  )
+  return <div>PostingStatus</div>;
 }
