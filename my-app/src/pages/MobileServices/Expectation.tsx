@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function Expectation() {
-  return (
-    <div>Expectation</div>
-  )
+  return <div>Expectation</div>;
 }

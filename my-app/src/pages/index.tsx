@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import * as React from "react";
-
+import Header from "@/Components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -17,6 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Header></Header>
+
+
         <div className={styles.description}>
           <div>
             <p>손 끝에서 이루어지는</p>
@@ -25,23 +28,6 @@ export default function Home() {
             <p>전자고지서의 열람부터 납부까지</p>
             <p>하나의 과정으로 처리하는 ONE-STOP 전자고지 발송 플랫폼</p>
             <button>Start Now</button>
-          </div>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
           </div>
         </div>
 
